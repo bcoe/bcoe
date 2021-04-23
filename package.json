@@ -1,0 +1,31 @@
+{
+  "name": "ci-cd-workshop",
+  "version": "1.0.0",
+  "description": "ci/cd, workshop",
+  "main": "index.js",
+  "scripts": {
+    "test": "c8 mocha test.js",
+    "posttest": "semistandard",
+    "fix": "semistandard --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bcoe/ci-cd-workshop.git"
+  },
+  "keywords": [
+    "ci/cd",
+    "workshop"
+  ],
+  "author": "Ben Coe <bencoe@google.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/bcoe/ci-cd-workshop/issues"
+  },
+  "homepage": "https://github.com/bcoe/ci-cd-workshop#readme",
+  "dependencies": {
+    "chartjs-node-canvas": "^3.1.0"
+  },
+  "devDependencies": {
+    "semistandard": "^16.0.0"
+  }
+}
